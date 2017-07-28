@@ -48,8 +48,19 @@ Route::get('/siswa', function(){
 	return $query;
 });
 
+Route::get('/about', function(){
+	return view('about');
+});
 
 
+
+Route::get('/cth', function(){
+	return view('contoh');
+});
+
+Route::get('/tgs', function(){
+	return view('tugas');
+});
 
 
 
